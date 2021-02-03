@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Order xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <address>4 km of Shlyach     3115</address>
+  <backet>
+    <Product>
+      <Id>1</Id>
+      <ProductName>утюг</ProductName>
+      <Price>51.0000</Price>
+      <Count>50</Count>
+    </Product>
+    <Product>
+      <Id>5</Id>
+      <ProductName>Носки</ProductName>
+      <Price>6.0000</Price>
+      <Count>54151</Count>
+    </Product>
+  </backet>
+  <deliveryMethod>Новая почта</deliveryMethod>
+  <payMethod>Наложенный платеж</payMethod>
+  <orderDate>2021-01-27T21:39:30.1320686Z</orderDate>
+</Order>t>
+  </backet>
+  <deliveryMethod>Новая почта</deliveryMethod>
+  <payMethod>Наличные</payMethod>
+  <orderDate>2021-01-23T23:52:59.0733544Z</orderDate>
+</Order>

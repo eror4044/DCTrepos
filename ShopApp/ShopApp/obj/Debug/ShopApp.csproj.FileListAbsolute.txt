@@ -1,0 +1,17 @@
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\ShopApp.exe.config
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\ShopApp.exe
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\ShopApp.pdb
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.csprojAssemblyReference.cache
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.SignUp.resources
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.Properties.Resources.resources
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.csproj.GenerateResource.cache
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.exe
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.pdb
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.CutomerForm.resources
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\EntityFramework.dll
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\EntityFramework.xml
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\User\source\repos\ShopApp\ShopApp\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\User\source\repos\ShopApp\ShopApp\obj\Debug\ShopApp.csproj.CopyComplete
