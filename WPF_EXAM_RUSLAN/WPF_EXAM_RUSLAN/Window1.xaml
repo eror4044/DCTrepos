@@ -1,0 +1,46 @@
+﻿<Window x:Class="WPF_EXAM_RUSLAN.Window1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_EXAM_RUSLAN"
+        mc:Ignorable="d"
+        Title="Window1" Height="450" Width="256.559">
+    <StackPanel x:Name="Contaxt1">
+        <StackPanel.ContextMenu>
+            <ContextMenu Name="Contaxt">
+                <MenuItem Header="save as" Name="save"  Click="Button_saveB">
+                   
+                </MenuItem>
+                <MenuItem Header="copy" Name="copy" Click="copyB_Click">
+                
+                </MenuItem>
+                <MenuItem Header="exit" Name="exit" Click="exitB_Click">
+               
+                </MenuItem>
+            </ContextMenu>
+        </StackPanel.ContextMenu>
+        <ToolBar Height="25" VerticalAlignment="Top" HorizontalAlignment="Left" Width="249">
+            <Button Width="20" VerticalAlignment="Stretch" Name="copyB" Click="copyB_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="copy.png"/>
+                </Button.Background>
+
+            </Button>
+            <Button Width="20" Height="20" Name="saveB" VerticalAlignment="Bottom" Click="Button_saveB">
+                <Button.Background>
+                    <ImageBrush ImageSource="saves.png"/>
+                </Button.Background>
+
+            </Button>
+            <Button Width="20" Name="exitB" VerticalAlignment="Bottom" Height="20" Click="exitB_Click">
+                <Button.Background>
+                    <ImageBrush ImageSource="exit.png"/>
+                </Button.Background>
+
+            </Button>
+        </ToolBar>
+        <TextBox Height="73" TextWrapping="Wrap" Name="TextBox" Text="TextBox" TextChanged="TextBox_TextChanged"/>
+
+    </StackPanel>
+</Window>

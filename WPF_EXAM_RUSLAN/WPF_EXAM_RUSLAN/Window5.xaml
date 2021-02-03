@@ -1,0 +1,32 @@
+﻿<Window x:Class="WPF_EXAM_RUSLAN.Window5"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPF_EXAM_RUSLAN"
+        mc:Ignorable="d"
+        Title="Window5" Height="450" Width="505.455">
+    <StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <TextBlock Width="200" FontSize="21" Margin="0,0,10,0">Employee Number</TextBlock>
+            <TextBlock FontSize="21" Margin="0,0,10,0" x:Name="Id" Text="{Binding Path=Id}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <TextBlock Width="200" FontSize="21" Margin="0,0,10,0">First Name</TextBlock>
+            <TextBlock FontSize="21" Margin="0,0,10,0" x:Name="FName" Text="{Binding Path=FirstName}"/>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <TextBlock Width="200" FontSize="21" Margin="0,0,10,0">Last Name</TextBlock>
+            <TextBlock FontSize="21" Margin="0,0,10,0" x:Name="LName" Text="{Binding Path=LastName}"></TextBlock>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <TextBlock Width="200" FontSize="21" Margin="0,0,10,0">Title</TextBlock>
+            <TextBlock FontSize="21" Margin="0,0,10,0" x:Name="Title" Text="{Binding Path=Title}"></TextBlock>
+        </StackPanel>
+        <StackPanel Orientation="Horizontal" Margin="20">
+            <TextBlock Width="200" FontSize="21" Margin="0,0,10,0">Department</TextBlock>
+            <TextBlock FontSize="21" Margin="0,0,10,0" x:Name="Department" Text="{Binding Path=Department}"></TextBlock>
+        </StackPanel>
+    </StackPanel>
+</Window>
